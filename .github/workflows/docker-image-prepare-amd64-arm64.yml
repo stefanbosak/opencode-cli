@@ -80,15 +80,15 @@ jobs:
           password: ${{ secrets.DH_TOKEN }}
           ecr: false
           logout: true
-      - name: 'Clean old containers in GitHub Container Registry'
-        uses: actions/delete-package-versions@main
-        with:
-          owner: ${{ github.repository_owner }}
-          package-name: ${{ env.REPOSITORY_NAME }}
-          package-type: 'container'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          delete-only-untagged-versions: 'true'
-          min-versions-to-keep: 2
+      #- name: 'Clean old containers in GitHub Container Registry'
+      #  uses: actions/delete-package-versions@main
+      #  with:
+      #    owner: ${{ github.repository_owner }}
+      #    package-name: ${{ env.REPOSITORY_NAME }}
+      #    package-type: 'container'
+      #    token: ${{ secrets.GITHUB_TOKEN }}
+      #    delete-only-untagged-versions: 'true'
+      #    min-versions-to-keep: 2
       #- name: 'Clean old containers in DockerHub Container Registry'
       #  uses: lostlink/docker-cleanup@main
       #  with:
