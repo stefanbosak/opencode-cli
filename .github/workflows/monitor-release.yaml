@@ -19,5 +19,5 @@ jobs:
         with:
           projects: |
             [
-              {"owner":"anomalyco","repo":"opencode"}
+              {"owner":"anomalyco","repo":"opencode","preferlatest": true}
             ]
