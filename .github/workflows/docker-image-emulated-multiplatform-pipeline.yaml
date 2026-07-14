@@ -12,7 +12,7 @@ on:
         description: 'OPENCODE_CLI_VERSION'
         required: false
         type: string
-        default: '1.17.20'
+        default: '1.18.0'
       CONTAINER_TAG:
         description: 'CONTAINER_TAG (text)'
         required: false
