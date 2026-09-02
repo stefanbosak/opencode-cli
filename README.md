@@ -17,9 +17,9 @@
 <!-- VERSION_INFO_START -->
 | Component | Version |
 |-----------|---------|
-| **Anomaly Innovations opencode CLI** | [`1.18.18`](https://github.com/anomalyco/opencode/releases/tag/v1.18.18) |
+| **Anomaly Innovations opencode CLI** | [`1.18.26`](https://github.com/anomalyco/opencode/releases/tag/v1.18.26) |
 
-> 🔄 Last updated: 2026-08-13T03:14:24Z · [Build #81](https://github.com/stefanbosak/opencode-cli/actions/runs/31663126287)
+> 🔄 Last updated: 2026-09-02T20:20:14Z · [Build #89](https://github.com/stefanbosak/opencode-cli/actions/runs/33678340372)
 <!-- VERSION_INFO_END -->
 
 ---
