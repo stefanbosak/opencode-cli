@@ -18,7 +18,7 @@ on:
         description: 'OPENCODE_CLI_VERSION'
         required: false
         type: string
-        default: '1.18.27'
+        default: '1.18.28'
       CONTAINER_TAG:
         description: 'CONTAINER_TAG (text)'
         required: false
